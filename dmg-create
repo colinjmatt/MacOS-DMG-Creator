@@ -1,15 +1,14 @@
 #! /bin/bash
 
 # Create a read-only disk image of the contents of a folder
-
 set -e;
 
 function pure_version() {
-  echo '1.0.0.2'
+  echo '1.0.0.0'
 }
 
 function version() {
-  echo "create-dmg $(pure_version)"
+  echo "dmg-create $(pure_version) For MacOS High Sierra"
 }
 
 function usage() {

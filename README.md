@@ -1,25 +1,25 @@
 # MacOS-DMG-Creator
-Create a DMG that looks nice (MacOS only)
+Create a DMG that looks nice (MacOS only) *Compatible with MacOS High Sierra!*
 
 Installation
 ------------
-  
-By being a shell script, yoursway-create-dmg installation is very simple. Simply download and run.  
-  
-> git clone https://github.com/colinjmatt/create-dmg.git  
-> cd create-dmg  
-> ./create-dmg [options]  
-  
+
+By being a shell script, yoursway-dmg-create installation is very simple. Simply download and run.  
+
+> git clone https://github.com/colinjmatt/dmg-create.git  
+> cd dmg-create  
+> ./dmg-create [options]  
+
   
 Usage
 -----
-  
-> create-dmg [options...] [output\_name.dmg] [source\_folder]  
+
+> dmg-create [options...] [output\_name.dmg] [source\_folder]  
 
 All contents of source\_folder will be copied into the disk image.  
-  
+
 **Options:**  
-  
+
 *   **--volname [name]:** set volume name (displayed in the Finder sidebar and window title)  
 *   **--volicon [icon.icns]:** set volume icon    
 *   **--background [pic.png]:** set folder background image (provide png, gif, jpg)    
@@ -35,14 +35,14 @@ All contents of source\_folder will be copied into the disk image.
 *   **--no-internet-enable:** disable automatic mount&copy    
 *   **--version:** show tool version number    
 *   **-h, --help:** display the help  
-  
-  
+
+
 Example
 -------
-  
+
 > \#!/bin/sh  
 > test -f Application-Installer.dmg && rm Application-Installer.dmg  
-> create-dmg \  
+> dmg-create \  
 > --volname "Application Installer" \  
 > --volicon "application\_icon.icns" \  
 > --background "installer\_background.png" \  
