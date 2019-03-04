@@ -10,7 +10,7 @@ By being a shell script, yoursway-dmg-create installation is very simple. Simply
 > cd dmg-create  
 > ./dmg-create [options]  
 
-  
+
 Usage
 -----
 
