@@ -7,7 +7,7 @@ Installation
 By being a shell script, yoursway-dmg-create installation is very simple. Simply download and run.  
 
 > git clone https://github.com/colinjmatt/MacOS-DMG-Creator.git  
-> cd dmg-create  
+> cd MacOS-DMG-Creator 
 > ./dmg-create [options]  
 
 
