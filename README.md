@@ -1,5 +1,5 @@
 # MacOS-DMG-Creator
-Create a DMG that looks nice (MacOS only) *Compatible with MacOS High Sierra!*
+Create a DMG that looks nice on MacOS only *Compatible with MacOS Catalina!*
 
 Installation
 ------------
