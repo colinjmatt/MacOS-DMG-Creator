@@ -4,7 +4,7 @@ Create a DMG that looks nice (MacOS only) *Compatible with MacOS High Sierra!*
 Installation
 ------------
 
-By being a shell script, yoursway-dmg-create installation is very simple. Simply download and run.  
+By being a shell script, MacOS-DMG-Creator installation is very simple. Simply download and run.  
 
 > git clone https://github.com/colinjmatt/MacOS-DMG-Creator.git  
 > cd MacOS-DMG-Creator  
